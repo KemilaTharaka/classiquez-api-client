@@ -10,6 +10,7 @@ COPY ./ /app/
 
 RUN npm run build
 
+## Stage2
 FROM nginx:1.13.12-alpine
 
 ## Copy our default nginx config
