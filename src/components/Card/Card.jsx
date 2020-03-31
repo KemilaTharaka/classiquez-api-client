@@ -32,5 +32,6 @@ export class Card extends Component {
     );
   }
 }
+// test
 
 export default Card;
